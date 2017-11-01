@@ -1,5 +1,9 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
+# Suppress policy warnings
+cmake_policy(SET CMP0048 OLD)
+cmake_policy(SET CMP0026 OLD)
+
 PROJECT (openexr)
 
 SET(OPENEXR_VERSION_MAJOR "2")
